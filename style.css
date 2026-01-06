@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: pink;
+    color: white;
+    text-align: center;
+}
+
+/* nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+} */
+
+/* Banner */
+/* .banner {
+    background: #ecf0f1;
+    padding: 40px;
+    text-align: center;
+} */
+
+/* Products */
+.products {
+    text-align: center;
+    padding: 20px;
+}
+
+ .card {
+    border: 1px solid #ccc;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+}
+
+/* .card img {
+    width: 100%;
+} */
+/* 
+button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+} */
+
+/* Login */
+ .login-box {
+    width: 300px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+} 
+
+/* Footer */
+/* footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} */
