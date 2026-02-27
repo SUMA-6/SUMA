@@ -1,0 +1,22 @@
+var Direction;
+(function (Direction) {
+    Direction[Direction["Up"] = 0] = "Up";
+    Direction[Direction["Down"] = 1] = "Down";
+    Direction[Direction["Left"] = 2] = "Left";
+    Direction[Direction["Right"] = 3] = "Right";
+})(Direction || (Direction = {}));
+var Status;
+(function (Status) {
+    Status["PENDING"] = "PENDING";
+    Status["SUCCESS"] = "SUCCESS";
+    Status["FAILED"] = "FAILED";
+})(Status || (Status = {}));
+function printStatusOrDirection(value) {
+    console.log("Value:", value);
+}
+var d = Direction.Right;
+var s = Status.SUCCESS;
+console.log("Direction variable =", d);
+console.log("Status variable =", s);
+printStatusOrDirection(d);
+printStatusOrDirection(s);
